@@ -14,12 +14,19 @@ A simple tool for creating a daily snapshot of all volumes attached to an ec2 in
 
 You will need aws credentials configured via the awscli or as ENV vars to run this tool.
 
+For each instance you want a snapshot taken of just tag it with:
+
+key: autosnap
+value: true
+
 ## Installation ##
 Simply run
 
     pip3 install aws-tag-snapshotter
 
 ## Example ##
+
+Before running the examples make sure to tag instances you want snapshotted with the key autosnap and the value true
 
 *Running it once*
 
