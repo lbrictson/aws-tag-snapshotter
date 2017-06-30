@@ -23,12 +23,12 @@ Simply run
 
 *Running it once*
 
-    From aws-tag-snapshotter.app import run
+    From awstagsnapshotter.app import run
     run()
 
 *Running it as an endless process*
 
-    From aws-tag-snapshotter.app import main
+    From awstagsnapshotter.app import main
     main()
 
 ## Docker ##
